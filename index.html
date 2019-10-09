@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style3.css" />
+      <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <title>Quiz | JGJ</title>  
+  </head>
+  <body> 
+      <div  class="jumbotron" data-speed="4" data-type="background">
+  <h1 class="display-4">Social Media Quiz</h1>
+  <p class="lead">Take this quiz to figure out what social media best fits your needs. Whether you  need it for a bussiness or a personal site, this quiz will help you find the right social media for you!</p>
+</div>
+      
+
+
+      
+      <div class="container">
+          <div class="row">
+              <div class="col"></div>
+              <div class="col-md-auto">
+                  
+                  
+                  
+                  
+                  
+<div id="b1">
+<form  id="form1">
+<h3>Is this for a business account?</h3> 
+<label><input type="radio" name="choise" id="y" value="1" /> Yes</label>
+                   <br/>
+<label><input type="radio" name="choise" id="n" value="2" /> No</label>
+                <br/>
+<div class="col text-center">
+                 <br/>
+<input class="button" type="submit" value="Submit">
+</div>
+</form>
+</div>       
+                  
+                  
+                  
+<div id="qp1">                
+<form  id="form2">
+<h3>How old are you?</h3>
+<h6><span id="age"></span> years old</h6>
+          <br/>
+<div class="slidecontainer">
+ <input type="range" min="13" max="60" name="p1" value="37" class="slider" id="myRange">
+</div>
+<div class="col text-center">
+           <br/>
+<input class="button" type="submit" value="Submit">
+</div>
+</form>      
+</div> 
+           
+                  
+                  
+<div id="qp2">                
+<form  id="form4">
+<h3>How much time do you spend on social media? </h3>
+<h6><span id="time"></span> minutes</h6>
+                      <br/>
+<div class="slidecontainer">
+<input type="range" min="0" max="180"  value="90" class="slider" id="myTime">
+</div>
+<div class="col text-center">
+                  <br/>
+<input class="button" type="submit" value="Submit">
+</div>
+</form>      
+</div> 
+                  
+                  
+<div id="qp3">
+<form id="form5">
+<h3>What do you use social media for?</h3>
+<input type="checkbox" name="genre"  value="ent" /> - Entertainment<br/>
+<input type="checkbox" name="genre"  value="news" /> - News <br/>
+<input type="checkbox" name="genre"  value="insp" /> - Inspiration<br/>
+<input type="checkbox" name="genre"  value="keep" /> - Keeping up with family and friends<br/>
+<div class="col text-center">
+                  <br/>
+<input class="button" type="submit" value="Submit">
+</div>             
+</form>      
+<p id="answer"></p>          
+</div>          
+                              
+                  
+<div id="b2">    
+<form  id="form3">
+<h3>How often would you post?</h3>
+                      <br/>          
+<label><input type="radio" name="post" id="week" value="1" /> Once a week</label>
+                      <br/>
+<label><input type="radio" name="post" id="day" value="2" /> Once a day</label>
+                      <br/>
+<label><input type="radio" name="post" id="multiple" value="3" /> Multiple times a day</label>
+                      <br/>
+<div class="col text-center">
+                  <br/>
+<input class="button" type="submit" value="Submit">
+</div>
+</form>      
+</div>   
+                  
+<div id="b3">
+<form id="form6">
+<h3>What kind of business are you?</h3>
+<input type="checkbox" name="bus"  value="food" /> - Food<br/>
+<input type="checkbox" name="bus"  value="sale" /> - Sales <br/>
+<input type="checkbox" name="bus"  value="phot" /> - Photography<br/>
+<input type="checkbox" name="bus"  value="real" /> - Realstate<br/>                
+              <div class="col text-center">
+                  <br/>
+      <input class="button" type="submit" value="Submit">
+    </div>
+                
+</form>      
+            <p id="answer2"></p>
+                  
+        </div>  
+                  
+                  
+                  
+               
+                  
+                  
+                  
+                  
+              </div>
+               <div class="col"></div>
+          </div>
+          </div>
+       <div class="container">
+           <div class="row">
+           <div class="col"></div>
+           <div class="col-md-auto">
+               <div id="results">
+            <h3>Here are your ideal social media platforms!</h3>
+           <p id="answer5"></p>
+           <p id="answer4"></p>
+                   </div>
+               </div>
+           <div class="col"></div>
+          </div>
+ </div>
+      
+      
+      
+      
+      
+      <footer class="page-footer font-small blue">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="obijuann.com"> obijuann.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+      
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+      <script>
+$(document).ready(function(){
+   // cache the window object
+   $window = $(window);
+ 
+   $('div[data-type="background"]').each(function(){
+     // declare the variable to affect the defined data-type
+     var $scroll = $(this);
+                     
+      $(window).scroll(function() {
+        // HTML5 proves useful for helping with creating JS functions!
+        // also, negative value because we're scrolling upwards                            
+        var yPos = -($window.scrollTop() / $scroll.data('speed'));
+         
+        // background position
+        var coords = '50% '+ yPos + 'px';
+ 
+        // move the background
+        $scroll.css({ backgroundPosition: coords });   
+      }); // end window scroll
+   });  // end section function
+}); // close out script
+          
+          
+//-------------------------------------------------------------------------          
+//intitializing all the valuables needed for the buckets          
+twitter=1;
+insta=1;
+fb=1;
+snap=1;
+pin=1;     
+          
+document.getElementById("form1").onsubmit=function() {
+ch = parseInt(document.querySelector('input[name = "choise"]:checked').value);  
+if (ch == 1) {
+   // document.getElementById("gilmore").style.display = "block";
+    document.getElementById("b1").style.display = "none";
+    document.getElementById("b2").style.display = "block";
+}
+if(ch == 2) {
+    document.getElementById("b1").style.display = "none";
+    document.getElementById("qp1").style.display = "block";
+}
+       
+return false;
+}
+
+//-------------------------------------------------------------------------
+agevar=0;  
+var slider = document.getElementById("myRange");
+var output = document.getElementById("age");
+output.innerHTML = slider.value; // Display the default slider value
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+output.innerHTML = this.value ;
+agevar=this.value;   
+}
+document.getElementById("form2").onsubmit=function() {
+   a=agevar;
+   if(agevar>=13 && agevar<=16){
+      snap=snap+2;
+       insta=insta+2; 
+       twitter=twitter+1;
+      }
+    else if(agevar>16 && agevar<=25){
+        insta=insta+2;
+        snap=snap+1;
+        twitter=twitter+3;
+        pin=pin+1;
+        fb=fb+1;
+            }
+    else if(agevar>24 && agevar<=40){
+        pin=pin+2;
+        twitter=twitter+1;
+        insta=insta+1;
+        fb=fb+2;
+            }
+    else{
+        fb=fb+3;
+        pin=pin+2;
+        
+    }
+   document.getElementById("qp1").style.display = "none";
+    document.getElementById("qp2").style.display = "block";
+    return false;
+}
+//-----------------------------------------------------------------------------
+
+ timee=0;
+var s = document.getElementById("myTime");
+var o = document.getElementById("time");
+o.innerHTML = s.value; // Display the default slider value
+// Update the current slider value (each time you drag the slider handle)
+s.oninput = function() {
+o.innerHTML = this.value;
+timee=this.value;
+    
+    
+    
+    
+}
+document.getElementById("form3").onsubmit=function(){
+    posts = parseInt(document.querySelector('input[name = "post"]:checked').value);
+    if(posts==1){
+        //once a week
+       fb=fb+2;
+        pin=pin+1;
+       }
+    else if(posts==1){
+       //once a day
+        twitter=twitter+1;
+        insta=insta+2;
+        fb=fb+3;
+       }
+    else{
+        //mult a day
+        twitter=twitter+3;
+        insta=insta+2;
+        snap=snap+1;
+        
+        
+    }
+    document.getElementById("b2").style.display = "none";
+    document.getElementById("b3").style.display = "block";
+    
+    return false;
+}
+
+
+//-------------------------------------------------------------------------
+document.getElementById("form4").onsubmit=function() {
+   t=timee;
+    if(t>=0 && t<=30){
+      snap=snap+1;
+       fb=fb+1; 
+        insta=insta+1;
+      }
+    else if(t>30 && t<=60){
+        insta=insta+2;
+        snap=snap+1;
+        twitter=twitter+1;
+        pin=pin+1;
+        fb=fb+1;
+            }
+    else if(t>60 && t<=120){
+        twitter=twitter+2;
+        pin=pin+2;
+            }
+    else{
+        twitter=twitter+3;
+    }
+    document.getElementById("qp2").style.display = "none";
+    document.getElementById("qp3").style.display = "block";
+    return false;
+}
+
+
+
+//-------------------------------------------------------------------------
+document.getElementById("form5").onsubmit=function(){
+    document.getElementById("answer").innerHTML = "";
+    checkboxes = document.querySelectorAll("input[name='genre']:checked");
+   
+    for( i=0; i < checkboxes.length; i++ ) {
+  //document.getElementById("answer").innerHTML += checkboxes[i].value + ", ";
+         if(checkboxes[i].value=="ent"){
+            twitter=twitter+2;
+            insta=insta+2;
+            snap=snap+2;
+        }
+        if(checkboxes[i].value=="news"){
+                fb=fb+2;
+            twitter=twitter+2;
+                }
+        if(checkboxes[i].value=="insp"){
+                insta=insta+1;
+            pin=pin+3;
+            
+                }
+       if(checkboxes[i].value=="keep"){
+            snap=snap+1;
+            fb=fb+3;
+            twitter=twitter+1;
+        }
+        else{
+            
+        }
+}
+    calc();
+    return false;
+}
+//-------------------------------------------------------------------------
+document.getElementById("form6").onsubmit=function(){
+    document.getElementById("answer2").innerHTML = "";   
+    cb = document.querySelectorAll("input[name='bus']:checked");
+    for( i=0; i < cb.length; i++ ) {
+  //document.getElementById("answer2").innerHTML += cb[i].value + ", ";
+        if(cb[i].value=="food"){
+            twitter=twitter+1;
+            insta=insta+5;
+            snap=snap+2;
+        }
+        if(cb[i].value=="sale"){
+                fb=fb+2;
+            twitter=twitter+2;
+                }
+        if(cb[i].value=="phot"){
+                insta=insta+1;
+            pin=pin+3;
+            
+                }
+        if(cb[i].value=="real"){
+            
+            fb=fb+2;
+            twitter=twitter+1;
+        }
+        else{
+            
+        }
+}
+    calc();
+    return false;
+}
+ 
+//-------------------------------------------------------------------------
+
+
+
+  //calculating the winner
+
+function calc(){
+
+    document.getElementById("qp3").style.display = "none";
+    document.getElementById("b3").style.display = "none";
+    document.getElementById("results").style.display = "block";
+    document.getElementById("answer4").style.display = "block";
+      
+    
+all=[twitter,insta,fb,snap,pin];//adding all vars to array
+    
+     
+          
+// object holding scores and feedback	
+scores = [{index:0, feedback: "Twitter", image: "twitter.png"},
+{index:1, feedback: "Instagram", image: "instagram.png"},
+{index:2, feedback: "Facebook", image: "Facebook.png"},
+{index:3, feedback: "Snapchat", image: "snapchat.jpg"},
+{index:4, feedback: "Pinterest", image: "pinterest.png"},];
+    
+
+
+    
+      
+for(i=0;i<5; i++) {
+    maxscore=Math.max.apply(Math,all);
+    
+    
+    
+for(x=0; x<all.length; x++) {
+    
+if(all[x]==maxscore) {
+highest = x;
+    
+}
+    
+} 
+
+document.getElementById("answer4").innerHTML += "Your #"+ (i+1)+ " social media is "+scores[highest].feedback+ "    " +'<img src="'+scores[highest].image+'" class="rounded-circle"  width="75" height="45">' + " with a score of  "+ all[highest]+"<br/>";
+    
+    all[highest]=0;
+    
+//UPLOAD THE FILES TO GITHUB!!!!!!!!!!!!!_______________!!!!!!!!!!!!!__________________________
+}
+
+    return false;
+    
+    
+    
+    
+}
+      </script>
+    
+  </body>
+</html>

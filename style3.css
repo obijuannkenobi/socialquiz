@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+.jumbotron{
+              background: #4D5859;
+              background-image: url("instagram.png");
+              background-position: center;
+              background-repeat: no-repeat;
+              
+
+              
+          }
+          .jumbotron h1{
+            color: #2196F3;
+              text-shadow: 1px 1px gray;
+           
+        }
+
+         .jumbotron p{
+            color: whitesmoke;
+            text-shadow: 1px 1px gray;
+          }
+          
+          .container{
+              padding-top: 10px;
+          }
+          body{
+              
+              background-color: #B7B7C5;
+              color: whitesmoke;
+            
+          }
+          html {
+              scroll-behavior: smooth;
+          }
+.navbar-default{
+    background-color: #4D5859;
+    border-color: #C2DCF2;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242,185,172, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler,.navbar-toggler {
+  border-color: rgb(242,185,172);
+
+} 
+
+h1, h2, h4, h5, h6, h8, li{
+    font-family: 'Raleway', sans-serif;
+    color: #3B5998;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    color: #3B5998;
+    text-decoration: underline;
+}
+h6{
+    text-align: center;
+}
+p,li{
+    color: #FAFAFA;
+    font-family: 'Quicksand', sans-serif;
+}
+.cap{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #3B5998;
+    text-align: center;
+}
+
+.button{
+    color: #3B5998;
+    background-color: #FAFAFA;
+     width: 150px;
+  text-align: center;
+    text-decoration-style: solid;
+ 
+}
+.img-thumbnail{
+    background-color: transparent;
+    border-color: #F2B9AC;
+}
+a{
+    color: #3B5998;
+    
+}
+a:visited{
+    color: #3B5998;
+}
+a:hover{
+    color:#C2DCF2;
+}
+
+
+label {
+width: 150px;
+display: inline-block;
+    color: #FAFAFA;
+}
+#qp1 {
+display: none;
+}
+#b2 {
+display: none;
+}
+#qp2{
+    display: none;
+}
+#qp3{
+    display: none;
+}
+#b3{
+    display: none;
+}
+#answer4{
+    display: none;
+}
+#results{
+    display: none;
+}
+
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 40px;
+  border-radius: 15%; 
+  background: #3B5998;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #3B5998;
+  cursor: pointer;
+}
+div.footer-copyright.text-center.py-3{
+    color: #FAFAFA;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #FAFAFA;
+    border-color: black;
+    color: black;
+    }
+.row{
+    padding-top: 10px;
+          } 
+.active{
+    text-decoration: underline;
+         }
+
+
+
+
+@media screen and (max-width: 768px) {
+#nav a {
+font-size: 90%;
+}
+    .jumbotron h1{
+        margin-top: 30px;
+        background-position: center center;
+              }
+}
+    
+@media screen and (max-width: 480px) {
+#nav a {
+font-size: 80%;
+}
+
+#footer {
+display: none;
+}
+}
